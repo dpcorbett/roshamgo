@@ -1,0 +1,16 @@
+body {
+	 background-color:cadetblue;
+}
+
+h1 {
+    color: antiquewhite;
+    font-family: Lobster, Monospace;
+  }
+
+img {
+  display: block;
+  max-width:256px;
+  max-height:90px;
+  width: auto;
+  height: auto;
+  }
