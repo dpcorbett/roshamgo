@@ -73,5 +73,6 @@ console.log(p_choice);
       }
    }
 };
-	alert(compare(userChoice, computerChoice));
+	var winningChoice = compare(userChoice, computerChoice);
+	$(".result").html("You chose: " + userChoice + "<br> I chose: " + computerChoice + "<br><h3>" + winningChoice + "</h3>");
 };
