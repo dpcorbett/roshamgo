@@ -3,5 +3,5 @@ $(document).ready(function() {
 });
 
 $( "#gameResult" ).click(function() {
-  alert( "Handler for .click() called." );
+  $(this).text("Click an icon to start the game!");
 });
